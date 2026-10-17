@@ -1,6 +1,8 @@
 /**
  * Telegram Channel Board - AI Template for Cloudflare Workers
  * 功能：将 Telegram 频道内容自动同步至网页展示，支持图片缓存、暗黑模式、移动端优化
+ * 开启webhook：https://你的域名.workers.dev/?setup_webhook=1&key=你的密钥
+ * 删除帖子：https://你的域名.workers.dev/?clear=1&key=你的密钥
  * * 配置指南：
  * 1. 绑定 KV 命名空间，变量名为 TG_DATA
  * 2. 在环境变量中设置：
